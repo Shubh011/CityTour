@@ -7,7 +7,7 @@ function Navbar({bgColor, color, toggleButton, toggle}) {
   return (
     <>
         <div className="nav_bar">
-            <div className="logo" style={{backgroundColor:`${bgColor}`, color:'blueviolet'}}> <h3>CityTour</h3> 
+            <div className="logo" style={{backgroundColor:`${bgColor}`, color:'blueviolet'}}> <h3>CityTourr</h3> 
              <div onClick={toggleButton} style={{color:`${color}`}} >{toggle ? (
               <BsToggle2On />
              ): (
